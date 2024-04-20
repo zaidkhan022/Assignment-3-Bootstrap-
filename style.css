@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4f8f9;
+}
+:root {
+  --nav-color: #eceeed;
+  --bg: #b9c6d1;
+  --button: #5a4ff3;
+  --button-text: #f4f4fe;
+  --para-color: #c0c5ca;
+  --learn-button-color: #0ebff1;
+  --card-text-color: #2e3944;
+  --footer-bg-color: #1e213d;
+}
+.bg-home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("./Images/main-bg.jpg");
+  width: 98.7vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-home ul li a {
+  color: var(--nav-color);
+}
+.bg-home ul li a:hover {
+  color: var(--button);
+}
+.get-access {
+  background-color: #ffffff60;
+  padding: 6px 16px;
+}
+.get-access:hover {
+  background-color: #ffffffb2;
+  padding: 6px 16px;
+}
+.below-header-para {
+  color: var(--para-color);
+}
+.below-nav input,
+.footer input {
+  background-color: #fff;
+  padding: 6px 7px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 60%;
+  text-align: left;
+}
+.team-work-para {
+  color: var(--card-text-color);
+}
+footer {
+  background-color: var(--footer-bg-color);
+}
+.footer a {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
