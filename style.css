@@ -12,13 +12,14 @@ body {
   --button: #5a4ff3;
   --button-text: #f4f4fe;
   --para-color: #c0c5ca;
+  --para-blog-color: #7e7e7e;
   --learn-button-color: #0ebff1;
   --card-text-color: #2e3944;
   --footer-bg-color: #1e213d;
 }
 .bg-home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-    url("./Images/main-bg.jpg");
+    url("./Images/img\ 2.png");
   width: 98.7vw;
   height: 100vh;
   background-repeat: no-repeat;
@@ -62,4 +63,24 @@ footer {
 }
 a {
   text-decoration: none;
+}
+.blog-nav li a:hover {
+  color: var(--button);
+}
+.get-access-blog {
+  background-color: #4d50f75b;
+  border: 2px solid #4d50f7fa;
+  color: #4d50f7fa;
+  padding: 6px 16px;
+}
+.get-access-blog:hover {
+  background-color: #ffffffb2;
+  border: 2px solid #4d50f7fa;
+  padding: 6px 16px;
+}
+.blog-text{
+  color: var(--card-text-color);
+}
+.font-color{
+  color: var(--para-blog-color);
 }
