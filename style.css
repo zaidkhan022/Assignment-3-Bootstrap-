@@ -84,3 +84,6 @@ a {
 .font-color{
   color: var(--para-blog-color);
 }
+.blog-bg{
+  background: #fff;
+}
